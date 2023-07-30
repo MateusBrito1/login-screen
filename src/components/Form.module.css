@@ -1,0 +1,57 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  form input[type="email"],
+  form input[type="password"] {
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 10px;
+    border: none;
+    background-color: #6b7280;
+    box-shadow: 1px 1px 1px rgba(52, 52, 53, 0.973);
+    color: white;
+  }
+  
+  input::placeholder {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #1e1b4b;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  cursor: pointer;
+  color: rgb(245, 245, 245);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #fdfcff;
+  color: black;
+}
+
+.erro {
+  font-size: 0.875rem;
+  color: red;
+}
+
+
+

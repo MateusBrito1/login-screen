@@ -1,0 +1,21 @@
+.Container {
+  font-family: "Poppins", sans-serif;
+  background-color: #18181b;
+  opacity: 0.8;
+  color: white;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: 10%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+
+
